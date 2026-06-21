@@ -1,0 +1,18 @@
+[project]
+name = "lightlx"
+version = "0.1.0"
+description = "Run models too big for RAM on Apple Silicon — any Hugging Face model, dense or MoE — by streaming weights from disk"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["mlx>=0.30", "mlx-lm>=0.31.3", "transformers>=5.0", "numpy", "ml_dtypes"]
+
+[project.scripts]
+lightlx = "lightlx.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["lightlx*"]

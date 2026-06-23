@@ -25,16 +25,16 @@ How to install and run it on Windows:
 
 Open PowerShell or Command Prompt.
 
-Navigate into the root folder you just created:
-cmd
+Navigate into the root folder you just created in CMD
+
 cd path\to\LightLX-Windows
 
-Install the package into your Python environment:
-cmd
+Install the package into your Python environment in CMD
+
 pip install -e .
 
-Run the program from anywhere by just typing:
-cmd
+Run the program from anywhere by just typing in CMD
+
 lightlx
 
 (Note: If you have an NVIDIA graphics card, PyTorch will automatically detect it and use CUDA to run the model on your GPU. If you do not, it will fall back to your CPU, which will work but will be slower).

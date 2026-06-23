@@ -17,8 +17,33 @@ fits on disk but not in memory — by streaming weights layer-by-layer.** Point 
 at a model directory and go.
 
 READ THE ORIGINAL REPO
-
 But this is for WINDOWS
+
+Step By Step
+
+Step 1 — Set up a project folder
+
+Create a folder for LightLX and drop all the .py files in it:
+
+lightlx/
+├── __init__.py
+├── __main__.py
+├── model.py
+├── generic.py      
+├── weights.py
+├── cache.py
+├── cli.py         
+├── state.py
+└── models/         ← your downloaded models go here
+
+Step 2 — Download a model From HuggingFace
+
+Run this from inside your lightlx/ folder (or anywhere): In CMD
+hf download ai name --local-dir ./models/ai name
+
+Step 3
+
+Type in lightlx into CMD
 
 ## License
 

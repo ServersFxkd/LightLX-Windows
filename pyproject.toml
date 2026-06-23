@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lightlx"
+version = "1.0.0"
+description = "Run models too big for memory (Windows/PyTorch port)"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.2.0",
+    "transformers>=4.40.0",
+    "accelerate>=0.30.0",
+    "numpy",
+    "ml_dtypes"
+]
+
+[project.scripts]
+lightlx = "lightlx.cli:main"

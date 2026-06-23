@@ -1,0 +1,5 @@
+mlx>=0.30
+mlx-lm>=0.31.3
+transformers>=5.0
+numpy
+ml_dtypes

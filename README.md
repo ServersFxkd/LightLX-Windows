@@ -41,8 +41,8 @@ lightlx
 
 Step 2 — Download a model From HuggingFace
 
-Run this from inside your lightlx/ folder (or anywhere):
-cmd
+Run this from inside your lightlx/ folder (or anywhere) in CMD
+
 hf download ai name --local-dir ./models/ai name     example: hf download mistralai/Devstral-Small-2-24B-Instruct-2512 --local-dir ./models/Devstral-Small-2-24B
 
 Step 3

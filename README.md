@@ -51,6 +51,10 @@ Step 3
 
 Type in lightlx into CMD
 
+⚠️ CRITICAL WARNING: Do not download models that end in .gguf. Those are for apps like LM Studio or Ollama.
+
+This script requires the raw safetensors files and a config.json file.
+
 ## License
 
 MIT — see [LICENSE](LICENSE). Built on [MLX](https://github.com/ml-explore/mlx)

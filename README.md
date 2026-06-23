@@ -21,9 +21,9 @@ But this is for WINDOWS
 
 Step By Step
 
-How to install and run it on Windows:
+Step 1 - How to install and run it on Windows
 
-Open PowerShell or Command Prompt.
+Open PowerShell or Command Prompt
 
 Navigate into the root folder you just created in CMD
 
@@ -43,7 +43,7 @@ Step 2 — Download a model From HuggingFace
 
 Run this from inside your lightlx/ folder (or anywhere) in CMD
 
-hf download ai name --local-dir ./models/ai name
+hf download <author>/<model-name> --local-dir ./models/<model-name>
 
 example: hf download mistralai/Devstral-Small-2-24B-Instruct-2512 --local-dir ./models/Devstral-Small-2-24B
 

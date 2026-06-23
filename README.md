@@ -21,25 +21,29 @@ But this is for WINDOWS
 
 Step By Step
 
-Step 1 — Set up a project folder
+How to install and run it on Windows:
 
-Create a folder for LightLX and drop all the .py files in it:
+Open PowerShell or Command Prompt.
 
-lightlx/
-├── __init__.py
-├── __main__.py
-├── model.py
-├── generic.py      
-├── weights.py
-├── cache.py
-├── cli.py         
-├── state.py
-└── models/         ← your downloaded models go here
+Navigate into the root folder you just created:
+cmd
+cd path\to\LightLX-Windows
+
+Install the package into your Python environment:
+cmd
+pip install -e .
+
+Run the program from anywhere by just typing:
+cmd
+lightlx
+
+(Note: If you have an NVIDIA graphics card, PyTorch will automatically detect it and use CUDA to run the model on your GPU. If you do not, it will fall back to your CPU, which will work but will be slower).
 
 Step 2 — Download a model From HuggingFace
 
-Run this from inside your lightlx/ folder (or anywhere): In CMD
-hf download ai name --local-dir ./models/ai name
+Run this from inside your lightlx/ folder (or anywhere):
+cmd
+hf download ai name --local-dir ./models/ai name     example: hf download mistralai/Devstral-Small-2-24B-Instruct-2512 --local-dir ./models/Devstral-Small-2-24B
 
 Step 3
 
